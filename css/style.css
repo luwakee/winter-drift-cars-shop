@@ -3,6 +3,11 @@ body {
 	padding: 0;
 }
 
+.container {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
 .main-ico {
 	border: 3px solid black;
 	border-radius: 45px;
@@ -22,6 +27,218 @@ body {
 	margin-left: 10px;
 	font-family: Gill Sans, sans-serif;
 	color: whitesmoke;
+}
+
+.about-service {
+	text-align: justify;
+	display: inline-block;
+}
+
+.about-service-text {
+	font-size: 20px;
+	font-style: Gill Sans, sans-serif;
+}
+
+.text-above-frame {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 0px;
+}
+
+.outer-wrapper {
+  width: 80%;
+  margin: 50px auto;
+	margin-top:10px;
+}
+
+.pogedunakin {
+  width: 100%;
+  margin-bottom: 50px;
+  padding-bottom: 55%;
+  position: relative;
+  border: 10px solid #fff;
+  background-color: #efefe8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+.pogedunakin > input {
+  display: none;
+}
+.pogedunakin .masacetuloves {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500%;
+  height: 100%;
+  font-size: 0;
+  list-style: none;
+  transition: transform 1s;
+}
+.pogedunakin .nudas-kived {
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pogedunakin .logesamidag-1 {
+  background-image: url("https://i.ytimg.com/vi/D8iMNGnjmho/maxresdefault.jpg");
+}
+.pogedunakin .logesamidag-2 {
+  background-image: url("https://krasnoturinsk.info/upload/iblock/144/144831e3a9b7a61ad668e8971cbd62a3.jpg");
+}
+.pogedunakin .logesamidag-3 {
+  background-image: url("https://a.d-cd.net/af2fd81s-960.jpg");
+}
+.pogedunakin .logesamidag-4 {
+  background-image: url("https://autogid174.ru/IMG_7239.jpg");
+}
+.pogedunakin .logesamidag-5 {
+  background-image: url("https://img.redbull.com/images/c_fill,w_1200,h_630,g_auto,f_auto,q_auto/redbullcom/2013/12/20/1331625694578_2/%D0%B7%D0%B8%D0%BC%D0%BD%D0%B8%D0%B9-%D0%B4%D1%80%D0%B8%D1%84%D1%82%D0%B8%D0%BD%D0%B3.jpg");
+}
+
+.desanulag-1 .klovestesag {
+  position: absolute;
+  bottom: 18px;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%);
+  transition-timing-function: ease-out;
+}
+.desanulag-1 .klovestesag > label[class^="kasulinskun-"] {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 1px solid #868383;
+  background-color: #efefe8;
+  cursor: pointer;
+}
+.desanulag-1 .casukolas label {
+  display: none;
+  position: absolute;
+  top: 50%;
+  padding: 5px 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.desanulag-1 .casukolas label::before, .desanulag-1 .casukolas label::after {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 24px;
+  background-color: #2e2d2c;
+}
+.desanulag-1 .casukolas label::before {
+  margin-bottom: -12px;
+}
+.desanulag-1 .casukolas label.left {
+  left: 20px;
+}
+.desanulag-1 .casukolas label.left::before {
+  transform: rotate(45deg);
+}
+.desanulag-1 .casukolas label.left::after {
+  transform: rotate(-45deg);
+}
+.desanulag-1 .casukolas label.right {
+  right: 20px;
+}
+.desanulag-1 .casukolas label.right::before {
+  transform: rotate(-45deg);
+}
+.desanulag-1 .casukolas label.right::after {
+  transform: rotate(45deg);
+}
+.desanulag-1 #degopes-1:checked ~ .masacetuloves {
+  transform: translateX(0%);
+}
+.desanulag-1 #degopes-1:checked ~ .klovestesag .kasulinskun-1 {
+  background-color: #424141;
+}
+.desanulag-1 #degopes-1:checked ~ .casukolas .gtekopad-1 {
+  display: block;
+}
+.desanulag-1 #degopes-2:checked ~ .masacetuloves {
+  transform: translateX(-20%);
+}
+.desanulag-1 #degopes-2:checked ~ .klovestesag .kasulinskun-2 {
+  background-color: #424141;
+}
+.desanulag-1 #degopes-2:checked ~ .casukolas .gtekopad-2 {
+  display: block;
+}
+.desanulag-1 #degopes-3:checked ~ .masacetuloves {
+  transform: translateX(-40%);
+}
+.desanulag-1 #degopes-3:checked ~ .klovestesag .kasulinskun-3 {
+  background-color: #424141;
+}
+.desanulag-1 #degopes-3:checked ~ .casukolas .gtekopad-3 {
+  display: block;
+}
+.desanulag-1 #degopes-4:checked ~ .masacetuloves {
+  transform: translateX(-60%);
+}
+.desanulag-1 #degopes-4:checked ~ .klovestesag .kasulinskun-4 {
+  background-color: #424141;
+}
+.desanulag-1 #degopes-4:checked ~ .casukolas .gtekopad-4 {
+  display: block;
+}
+.desanulag-1 #degopes-5:checked ~ .masacetuloves {
+  transform: translateX(-80%);
+}
+.desanulag-1 #degopes-5:checked ~ .klovestesag .kasulinskun-5 {
+  background-color: #424141;
+}
+.desanulag-1 #degopes-5:checked ~ .casukolas .gtekopad-5 {
+  display: block;
+}
+
+.desanulag-2 .masacetuloves {
+  animation: slider-animation 50s ease-in-out infinite;
+}
+.desanulag-2 .masacetuloves:hover {
+  animation-play-state: paused;
+}
+
+@keyframes slider-animation {
+  0%,
+  7% {
+  transform: translateX(0%);
+  }
+  12.5%,
+  19.5% {
+  transform: translateX(-20%);
+  }
+  25%,
+  32% {
+  transform: translateX(-40%);
+  }
+  37.5%,
+  44.5% {
+  transform: translateX(-60%);
+  }
+  50%,
+  57% {
+  transform: translateX(-80%);
+  }
+  62.5%,
+  69.5% {
+  transform: translateX(-60%);
+  }
+  75%,
+  82% {
+  transform: translateX(-40%);
+  }
+  87.5%,
+  94.5% {
+  transform: translateX(-20%);
+  }
 }
 
 .links {
