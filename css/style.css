@@ -300,3 +300,17 @@ section div { font-size: 1rem; }
 	display: flex;
 	margin-right: 7px;
 }
+.wherewe {
+	font-family: Gill Sans, sans-serif;
+}
+
+.map {
+	border: 2px solid #2e2d2c;
+	width: 600px;
+	height: 450px;
+	border-radius: 15px;
+}
+
+iframe {
+	border-radius: 15px;
+}
