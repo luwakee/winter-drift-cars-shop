@@ -6,6 +6,7 @@ body {
 .container {
 	margin-left: 10%;
 	margin-right: 10%;
+	height: 100vh;
 }
 
 .main-ico {
@@ -261,11 +262,11 @@ body {
 	color: black;
 }
 
-.shop-link, .gallery-link, .about-link {
+.index-link, .shop-link, .gallery-link, .about-link {
 	display: inline-block;
 	text-align: center;
-	margin: 0 auto;
-	margin-left: 200px;
+	
+	margin-left: 100px;
 	font-family: Gill Sans, sans-serif;
 	color: whitesmoke;
 	text-decoration: none;
@@ -290,10 +291,20 @@ section div { font-size: 1rem; }
  section div { font-size: 1.5rem; }
 }
 
-.footer {
+/*.footer {
 	display: flex;
   align-items: center;
   justify-content: center;
+}*/
+
+.footer {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+   left:0px;
+   bottom:0px;
+   height:40px;
 }
 
 .tg, .in, .vk, .yt, .git {
